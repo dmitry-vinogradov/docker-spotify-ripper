@@ -1,0 +1,8 @@
+# Git files
+.git
+.gitignore
+
+
+# Information files
+LICENSE
+README.md

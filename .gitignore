@@ -1,0 +1,6 @@
+# appkey and temp data #
+####################################
+spotify_appkey.key
+config.ini
+tmp/*
+*~
