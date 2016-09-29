@@ -1,4 +1,4 @@
-Dockerfile for spotify-ripper (https://github.com/jrnewell/spotify-ripper)
+Dockerfile for spotify-ripper (https://github.com/jrnewell/spotify-ripper) - ** no longer available, therefore this build fails **
 
 Build from docker file
 
