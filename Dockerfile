@@ -10,10 +10,12 @@ RUN apt-get -q update && \
 	cd libspotify-12.1.51-Linux-x86_64-release && \
 	make install prefix=/usr/local && \
 	pip install pyspotify && \
-	pip install spotify-ripper && \
-    	apt-get autoremove &&\
-    	apt-get clean &&\
-    	rm -rf /var/lib/apt/lists/* &&\
+	git clone https://github.com/hbashton/spotify-ripper.git && \
+	cd spotify-ripper && \
+	python setup.py install && \
+	apt-get autoremove && \
+	apt-get clean && \
+    	rm -rf /var/lib/apt/lists/* && \
     	rm -rf /tmp/
 
 # where we write the files
