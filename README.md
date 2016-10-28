@@ -1,4 +1,5 @@
-Dockerfile for spotify-ripper (https://github.com/jrnewell/spotify-ripper) - ** no longer available, therefore this build fails **
+Dockerfile for spotify-ripper.
+https://github.com/hbashton/spotify-ripper; originally from https://github.com/jrnewell/spotify-ripper
 
 Build from docker file
 
@@ -23,3 +24,4 @@ Send commands with
 ```
 docker exec spotify-ripper spotify-ripper spotify:track:52xaypL0Kjzk0ngwv3oBPR
 ```
+Get Spotify URI's for tracks and playlists by right-clicking from Spotify app.
