@@ -25,3 +25,12 @@ Send commands with
 docker exec spotify-ripper spotify-ripper spotify:track:52xaypL0Kjzk0ngwv3oBPR
 ```
 Get Spotify URI's for tracks and playlists by right-clicking from Spotify app.
+
+
+## Docker-compose
+
+```
+docker-compose up -d
+docker-compose exec ripper spotify-ripper $(<track_urls.txt)
+```
+
