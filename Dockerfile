@@ -10,7 +10,7 @@ RUN apt-get -q update && \
 	cd libspotify-12.1.51-Linux-x86_64-release && \
 	make install prefix=/usr/local && \
 	pip install pyspotify && \
-	git clone https://github.com/hbashton/spotify-ripper.git && \
+	git clone https://github.com/dmitry-vinogradov/spotify-ripper.git && \
 	cd spotify-ripper && \
 	python setup.py install && \
 	apt-get autoremove && \
