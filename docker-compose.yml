@@ -1,7 +1,8 @@
 version: "3"
 services:
   ripper:
-    build: ./
+    #build: ./
+    image: docker-spotify-ripper-image
     volumes:
       - ~/Music/Spotify:/data
       - ./spotify_appkey.key:/root/.spotify-ripper/spotify_appkey.key

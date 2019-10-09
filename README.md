@@ -29,8 +29,11 @@ Get Spotify URI's for tracks and playlists by right-clicking from Spotify app.
 
 ## Docker-compose
 
+Donwload image tar and execute following:
+
 ```
+docker load -i docker-spotify-ripper-image.tar
 docker-compose up -d
-docker-compose exec ripper spotify-ripper $(<track_urls.txt)
+docker-compose exec ripper spotify-ripper --flat $(<tracks.txt)
 ```
 
